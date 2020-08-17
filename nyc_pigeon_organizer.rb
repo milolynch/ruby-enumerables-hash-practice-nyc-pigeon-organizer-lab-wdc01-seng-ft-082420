@@ -4,9 +4,10 @@ def nyc_pigeon_organizer(data)
     values.each do |inner_key , names|
       names.each do |name|
         if !final_ary[name]
-          final_ary
+          final_ary[name] = {}
         end
-        if 
+        if
+          
         end
         final_ary[name][key].push(inner_key.to_s)
       end
