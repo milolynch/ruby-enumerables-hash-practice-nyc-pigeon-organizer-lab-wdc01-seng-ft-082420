@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
           final_ary[name] = {}
         end
         if !final_ary[name][key]
-          
+          !final_ary[name][key] = []
         end
         final_ary[name][key].push(inner_key.to_s)
       end
