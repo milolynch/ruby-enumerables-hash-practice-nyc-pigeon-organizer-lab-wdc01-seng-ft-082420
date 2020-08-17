@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         end
         if 
         end
-        
+        final_ary[name][key]
       end
     end
     
